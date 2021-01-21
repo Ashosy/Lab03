@@ -1,0 +1,182 @@
+.font{
+    font-family: 'Raleway', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 30px;
+    padding-left: -27px;
+    font-weight: bold;
+}
+.navbar-brand {
+    color: white;
+    letter-spacing: 7px;
+    margin-left: -34px;
+}
+.navbar-brand:hover{
+    color: rgb(199, 27, 84);
+}
+.bg-custom{
+    background-color: #fcca28;        
+}
+.page-footer{
+    background-color:  rgb(240, 109, 153);
+}
+.contain{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    /* border: 3px solid violet; */
+}
+.link{
+    color: white;
+    /* border: 3px solid red; */
+    margin-top: 12px;
+    text-align: center;
+    font-family: Raleway;
+
+}
+.sublink{
+    /* border: 3px solid firebrick; */
+    margin-top: 22px;
+    font-family: Raleway;
+}
+.text{
+    margin-top: 22px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.textlink{
+    font-weight: normal;
+}
+.textlink:hover{
+    color: beige;
+
+}
+.location{
+    color: white;
+    /* border: 3px solid darkturquoise; */
+    margin-top: 12px;
+    font-family: Raleway;
+
+}
+.sublocation{
+    margin-top: 22px;
+}
+.title-head{
+    font-weight: bold;
+}
+a {
+    color: white;
+    font-weight: bold;
+    font-family: Raleway;
+}
+a:hover{
+    color: rgb(240, 109, 153);
+}
+.page-footer{
+    background-color:  rgb(202, 158, 173);
+}
+.contain{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    /* border: 3px solid violet; */
+}
+.about{
+    color: white;
+    /* border: 3px solid green; */
+    padding-left: 22px;
+    padding-right: 22px;
+    margin-left: 30px;
+    margin-top: 12px;
+    font-family: Raleway;
+    
+}
+.webs:hover{
+    color: beige;
+}
+.payment-form{
+    font-family: Open Sans;
+    font-size: 22px;
+    color: rgb(202, 158, 173);
+    margin-left: 12px;
+}
+.col1{
+    background-color:  #fcca28;
+}
+.col2{
+    background-color:  rgb(199, 27, 84);
+}
+.form-control:focus{
+    box-shadow: 0 0 5px crimson;
+    border: none;
+}
+.btn{
+    background-color:  rgb(240, 109, 153);
+    color: white;
+    border-color:  rgb(240, 109, 153);
+}
+.btn:focus{
+    box-shadow: 0 0 6px #fcca28;
+}
+.btn1{
+    background-color: #fcca28;
+    color: white;
+    border-color:  #fcca28;
+}
+.btn:focus{
+    box-shadow: 0 0 6px rgb(240, 109, 153);
+}
+@media screen and (max-width:800px){
+    label{
+        display: block;
+        cursor: pointer;
+        /* background-color: blueviolet; */
+        /* border: 2px solid aqua; */
+        margin-left: -420px;
+        margin-top: 7px;
+        color: white;
+    }
+    
+    #toggle:checked + .menu{
+        display: block;
+        
+    }
+       
+    .menu{
+        margin-left: -90px;
+        margin-top: 230px;
+        display: none;
+        
+    }
+
+    .menu a{
+        color: rgb(199, 27, 84);
+        font-size: 22px;
+        /* display: none; */
+    }
+    .container2{
+       /* border: 3px solid rebeccapurple; */
+       margin-left: 140px;
+       margin-top: 30px;
+       width: 300px;
+       display: block;
+       height: 30vh;
+       
+    }
+    .quote{
+        font-size: 30px;
+        margin-left: 0px;
+    }
+    .sub2{
+        margin-left: -52px;
+        margin-top: 24px;
+    }
+    .navbar{
+        /* width: 50%; */
+    }
+    .font{
+        font-size: 32px;
+        margin-left: 7px;
+    }
+}
